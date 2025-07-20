@@ -1,1 +1,26 @@
  @import "tailwindcss";
+
+ @font-face {
+    font-family: 'dmsans-Regular';
+    src: url(/fonts/DMSans-Regular.ttf);
+ }
+ @font-face {
+    font-family: 'dmsans-Medium';
+    src: url(/fonts/DMSans-Medium.ttf);
+ }
+ @font-face {
+    font-family: 'dmsans-SemiBold';
+    src: url(/fonts/DMSans-SemiBold.ttf);
+ }
+ @font-face {
+    font-family: 'dmsans-Bold';
+    src: url(/fonts/DMSans-Bold.ttf);
+ }
+
+ @theme{
+    --max-width-container: 1200px;
+    --font-sansRegular: 'dmsans-Regular';
+    --font-sansMedium: 'dmsans-Medium';
+    --font-sansSemiBold: 'dmsans-SemiBold';
+    --font-sansBold: 'dmsans-Bold';
+ }
